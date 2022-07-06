@@ -206,3 +206,24 @@ RSpec.describe "Apartments", type: :request do
   end
 end
 ```
+
+Ran the following commands on the terminal:
+$ rails db:create
+$ bundle
+
+$ Ran 'gem install bundler:2.2.23' to update the bundle.
+
+$ ran rails db:setup
+
+$ ran rails s.. to check if app is running.
+$ Saw page is up with Sign In  and Sign Up available
+
+$ ran 'rails generate resource Apartment street:string city:string state:string manager:string email:string price:string bedrooms:integer bathrooms:integer pets:string image:text user_id:integer'
+
+$ ran 'rails db:migrate'
+
+$ ran 'gem install bundler:2.2.33'
+
+$ added the line "belongs_to :user" to line 2 of app/modes/apartment.rb
+
+$ added to line 6 of app/models/user.rb "has_many apartments".
