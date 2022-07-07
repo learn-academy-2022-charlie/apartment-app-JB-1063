@@ -208,6 +208,7 @@ end
 ```
 
 Ran the following commands on the terminal:
+
 $ rails db:create
 $ bundle
 
@@ -227,3 +228,5 @@ $ ran 'gem install bundler:2.2.33'
 $ added the line "belongs_to :user" to line 2 of app/modes/apartment.rb
 
 $ added to line 6 of app/models/user.rb "has_many apartments".
+
+$ Change Header and text in Home.js and adjust code in Home.test.js to reflect the change
